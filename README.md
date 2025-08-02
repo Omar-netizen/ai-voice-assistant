@@ -23,28 +23,10 @@ It demonstrates a **local-first AI pipeline**:
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Screenshot
+<img width="1381" height="752" alt="image" src="https://github.com/user-attachments/assets/a994de89-7d69-442f-b62b-fc69b046119a" />
 
-.
-├── components/
-│ └── Recorder.tsx # Main UI + Recording, STT, LLM integration
-├── workers/
-│ ├── sttWorker.js # Handles Whisper WASM transcription
-│ └── ttsWorker.js # Handles local TTS (currently WIP)
-├── public/
-│ ├── manifest.json # PWA manifest
-│ ├── service-worker.js # Service worker for offline caching
-│ └── lib/
-│ └── transformers.min.js # Xenova Transformers UMD
-├── pages/
-│ ├── _document.tsx # Registers manifest + SW
-│ └── index.tsx # Main entry page (imports Recorder)
-├── package.json
-├── next.config.js
-└── README.md
 
-yaml
-Copy code
 
 ---
 
